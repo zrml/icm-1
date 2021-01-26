@@ -1,4 +1,8 @@
 # InterSystems Cloud Manager
 
-## Command and usage examples
+An Example of a simple InterSystems IRIS cluster with
+- InterSystems mirroring and
+- ECP client instances
+
+
 
