@@ -1,5 +1,5 @@
 #!/bin/bash
-export icmContainer=intersystems/icm:2020.3.0-dev
+export icmContainer=containers.intersystems.com/intersystems/icm:2020.4.0.524.0
 #source ../env-config.sh
 clear
 
