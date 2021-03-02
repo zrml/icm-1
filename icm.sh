@@ -8,7 +8,7 @@ DIR2MOUNT=$(basename $(pwd))
 
 docker run --name icm-1 -it -v $PWD:/$DIR2MOUNT --cap-add SYS_TIME --workdir /$DIR2MOUNT $icmContainer 
 
-printf "\nExited icm-aws2 container\n"
-printf "\nRemoving icm-aws2 container...\nContainer removed:  "
+printf "\nExited icm-1 container\n"
+printf "\nRemoving icm-1 container...\nContainer removed:  "
 docker rm icm-1
 
